@@ -1,0 +1,140 @@
+.signup-container {
+  max-width: 400px;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px
+}
+
+.signup-container h2 {
+  text-align: center;
+  color: #333333;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.signup-container p {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.auth-link {
+  color: #DA7000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.form-group, .form-group-inline {
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.form-group-inline {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.form-group-inline:last-child {
+  margin-right: 0;
+}
+
+.form-group input, .form-group-inline input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.form-group input::placeholder, .form-group-inline input::placeholder {
+  color: #999999;
+  font-size: 14px;
+}
+
+.form-group input:focus, .form-group-inline input:focus {
+  border-color: #1e88e5;
+  outline: none;
+}
+
+.password-group {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 10px;
+  top: calc(50% - 10px); 
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #666;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.form-group p {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.agree-join-btn {
+  width: 350px;
+  padding: 12px;
+  background-color: #1e88e5;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.agree-join-btn:hover {
+  background-color: #1565c0;
+}
+
+.signup-footer {
+  text-align: center;
+  margin-top: 10px;
+  color: #555555;
+  font-size: 14px;
+}
+
+.signup-container {
+  max-width: 550px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.form-group, .form-group-inline {
+  margin-bottom: 10px;
+}
+
+.form-group input, .form-group-inline input {
+  padding: 8px;
+}
+
+.password-toggle {
+  right: 10px;
+  top: calc(50% - 30px);
+  transform: translateY(-50%);
+}
+
+.password-container input[type="password"],
+.password-container input[type="text"] {
+  width: calc(100% - 30px);
+}
