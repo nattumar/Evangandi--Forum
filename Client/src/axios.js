@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5500/api',
+  baseURL: 'https://evangandi-forum.onrender.com/api',
+
 });
 
 
